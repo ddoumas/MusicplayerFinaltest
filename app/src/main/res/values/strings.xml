@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MusicplayerFinal</string>
+    <string name="desc_home">Main Activity - Home of the music player showing currently playing song.
+        With MediaPlayer Library and Soundcloud API(or other internet streaming service) implementation should be fully functional
+         </string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="playlists">Playlists</string>
+    <string name="radio">Radio</string>
+    <string name="shine">Parov Stelar - Shine </string>
+    <string name="currentsong">Homesick</string>
+    <string name="desc_search">Search Activity - This activity will be used for searching  music  stored
+        in the device(MediaPlayer Class) or in external database (like SoundCloud API).</string>
+    <string name="desc_playlists">Playlists Activity - this activity will allow a user to create and manage playlists.</string>
+    <string name="desc_radio">Radio Activity - this screen will offer user to listen to radio stations through Tune-In API.</string>
+    <string name="search_input">Search</string>
+    <string name="recently">Recently found:</string>
+    <string name="Parov1">Parov Stelar - The Princess </string>
+    <string name="Parov2">Parov Stelar - A night in Torino </string>
+    <string name="recentlyPlayed">Recently played</string>
+    <string name="all">All my music</string>
+    <string name="DJs"> My favourite DJs </string>
+    <string name="newPlaylist">add new playlist</string>
+    <string name="currentlyplaying">Parov Stelar - Homesick</string>
+    <string name="add">new channel</string>
+    <string name="creditcard_buy">Payment</string>
+    <string name="desc_pay">Payment Activity - This Activity will be used to accept payments using the Paypal Mobile Payment Libraries (MPL) and with a Pay with Paypal button implementing the getPayButton method</string>
+    <string name="paywithpaypal">Subscribe</string>
+</resources>

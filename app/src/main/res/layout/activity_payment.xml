@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.musicplayerfinal.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:background="@color/colorBack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/homeImage"
+                    style="@style/MenuIcon"
+                    android:src="@drawable/ic_home_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/searchImage"
+                    style="@style/MenuIcon"
+                    android:src="@drawable/ic_search_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/playlistsImage"
+                    style="@style/MenuIcon"
+                    android:src="@drawable/ic_list_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/radioImage"
+                    style="@style/MenuIcon"
+                    android:src="@drawable/ic_radio_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/cardImage"
+                    style="@style/MenuIconClicked"
+                    android:src="@drawable/ic_credit_card_black_24dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/home"
+                    style="@style/MenuText"
+                    android:text="@string/home" />
+
+                <TextView
+                    android:id="@+id/search"
+                    style="@style/MenuText"
+                    android:text="@string/search" />
+
+                <TextView
+                    android:id="@+id/playlists"
+                    style="@style/MenuText"
+                    android:text="@string/playlists" />
+
+                <TextView
+                    android:id="@+id/radio"
+                    style="@style/MenuText"
+                    android:text="@string/radio" />
+                <TextView
+                    android:id="@+id/card"
+                    style="@style/MenuTextClicked"
+                    android:text="@string/creditcard_buy"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorIcon"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:text="@string/desc_pay"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padd"
+                android:text="@string/currentlyplaying"
+                android:textColor="@color/colorIcon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/Player"
+                    android:src="@drawable/ic_volume_mute_black_24dp" />
+
+                <ImageView
+                    style="@style/Player"
+                    android:src="@drawable/ic_skip_previous_black_24dp" />
+
+                <ImageView
+                    style="@style/Player"
+                    android:src="@drawable/ic_play_circle_filled_black_24dp" />
+
+                <ImageView
+                    style="@style/Player"
+                    android:src="@drawable/ic_skip_next_black_24dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/paywithpaypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:text="@string/paywithpaypal" />
+    </RelativeLayout>
+</ScrollView>
+
+
+
